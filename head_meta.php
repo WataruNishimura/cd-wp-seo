@@ -33,8 +33,6 @@ function cws_meta_ogp($title, $desc, $img = "", $type = "article", $url, $small_
 
 function cws_ogp_header()
 {
-  $plugin_ogp_settings = get_option("cws_settings_group");
-  $common_description = $plugin_ogp_settings["cws_common_description"];
 
 
   $ogp_replace_img = get_template_directory_uri() . "/assets/ogp.png";
